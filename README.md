@@ -1,0 +1,1 @@
+按照 [此文件中的流程](./myinstall38.txt) 来配置valle环境
