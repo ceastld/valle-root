@@ -36,3 +36,5 @@ cd valle
 pip install -e .
 
 pip install h5py
+pip install pypinyin
+pip install epitran
