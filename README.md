@@ -9,7 +9,9 @@ git clone --recursive https://github.com/ceastld/valle-root.git
 
 ### 子模块
 * [icefall](https://github.com/k2-fsa/icefall.git)
-* [vall-e](https://github.com/ceastld/vall-e.git) by @ceastld 增加了aishell2的训练
+
+* 对原始的valle代码增加了aishell2的训练, see [vall-e](https://github.com/ceastld/vall-e.git) forked by @ceastld, 
+
 
 ## python环境
 按照 [myinstall38.txt](./myinstall38.txt) 来配置valle环境.
