@@ -1,0 +1,8 @@
+[submodule "icefall"]
+	path = icefall
+	url = https://github.com/k2-fsa/icefall.git
+	branch = master
+[submodule "valle"]
+	path = valle
+	url = https://github.com/ceastld/valle-root.git
+	branch = main
