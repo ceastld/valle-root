@@ -4,5 +4,5 @@
 	branch = master
 [submodule "valle"]
 	path = valle
-	url = https://github.com/ceastld/valle.git
+	url = https://github.com/ceastld/vall-e.git
 	branch = main
