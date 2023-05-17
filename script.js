@@ -13,12 +13,13 @@ function add_tr(text) {
 
   // 创建要添加的 HTML 字符串
   var html = `
-  <td style="text-align: left; vertical-align: middle; width: 500px;">${audioText}</td>
+  <td style="text-align: left; vertical-align: middle; width: 500px;">${promptText}</td>
   <td style="text-align: center;">
     <audio controls="controls" style="width: 140px;">
       <source src="${promptAudioPath}" autoplay/>Your browser does not support the audio element.
     </audio>
   </td>
+  <td style="text-align: left; vertical-align: middle;">${audioText}</td>
   <td style="text-align: center;">
     <audio controls="controls" style="width: 140px;">
       <source src="${audioPath}" autoplay/>Your browser does not support the audio element.
