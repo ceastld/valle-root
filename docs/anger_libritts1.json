@@ -1,0 +1,121 @@
+{
+    "segments": [
+        {
+            "start": 0.529,
+            "end": 2.893,
+            "text": " we have to reduce the number of plastic bags.",
+            "words": [
+                {
+                    "word": "we",
+                    "start": 0.529,
+                    "end": 0.729,
+                    "score": 0.901
+                },
+                {
+                    "word": "have",
+                    "start": 0.769,
+                    "end": 0.929,
+                    "score": 0.981
+                },
+                {
+                    "word": "to",
+                    "start": 0.97,
+                    "end": 1.05,
+                    "score": 0.996
+                },
+                {
+                    "word": "reduce",
+                    "start": 1.11,
+                    "end": 1.41,
+                    "score": 0.622
+                },
+                {
+                    "word": "the",
+                    "start": 1.45,
+                    "end": 1.55,
+                    "score": 0.993
+                },
+                {
+                    "word": "number",
+                    "start": 1.671,
+                    "end": 2.011,
+                    "score": 0.909
+                },
+                {
+                    "word": "of",
+                    "start": 2.051,
+                    "end": 2.091,
+                    "score": 0.992
+                },
+                {
+                    "word": "plastic",
+                    "start": 2.171,
+                    "end": 2.592,
+                    "score": 0.808
+                },
+                {
+                    "word": "bags.",
+                    "start": 2.632,
+                    "end": 2.893,
+                    "score": 0.975
+                }
+            ]
+        }
+    ],
+    "word_segments": [
+        {
+            "word": "we",
+            "start": 0.529,
+            "end": 0.729,
+            "score": 0.901
+        },
+        {
+            "word": "have",
+            "start": 0.769,
+            "end": 0.929,
+            "score": 0.981
+        },
+        {
+            "word": "to",
+            "start": 0.97,
+            "end": 1.05,
+            "score": 0.996
+        },
+        {
+            "word": "reduce",
+            "start": 1.11,
+            "end": 1.41,
+            "score": 0.622
+        },
+        {
+            "word": "the",
+            "start": 1.45,
+            "end": 1.55,
+            "score": 0.993
+        },
+        {
+            "word": "number",
+            "start": 1.671,
+            "end": 2.011,
+            "score": 0.909
+        },
+        {
+            "word": "of",
+            "start": 2.051,
+            "end": 2.091,
+            "score": 0.992
+        },
+        {
+            "word": "plastic",
+            "start": 2.171,
+            "end": 2.592,
+            "score": 0.808
+        },
+        {
+            "word": "bags.",
+            "start": 2.632,
+            "end": 2.893,
+            "score": 0.975
+        }
+    ]
+}

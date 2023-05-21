@@ -1,0 +1,205 @@
+{
+    "segments": [
+        {
+            "start": 1.202,
+            "end": 4.931,
+            "text": "\u5065\u5eb7\u7684\u8eab\u9ad4\u662f\u5be6\u73fe\u5922\u60f3\u548c\u5e78\u798f\u751f\u6d3b\u7684\u63ed\u793a",
+            "words": [
+                {
+                    "word": "\u5065",
+                    "start": 1.202,
+                    "end": 1.403,
+                    "score": 0.901
+                },
+                {
+                    "word": "\u5eb7",
+                    "start": 1.403,
+                    "end": 1.623,
+                    "score": 0.968
+                },
+                {
+                    "word": "\u7684",
+                    "start": 1.623,
+                    "end": 1.744,
+                    "score": 0.999
+                },
+                {
+                    "word": "\u8eab",
+                    "start": 1.744,
+                    "end": 2.205,
+                    "score": 0.954
+                },
+                {
+                    "word": "\u9ad4"
+                },
+                {
+                    "word": "\u662f",
+                    "start": 2.205,
+                    "end": 3.127,
+                    "score": 0.934
+                },
+                {
+                    "word": "\u5be6"
+                },
+                {
+                    "word": "\u73fe"
+                },
+                {
+                    "word": "\u5922"
+                },
+                {
+                    "word": "\u60f3",
+                    "start": 3.127,
+                    "end": 3.408,
+                    "score": 0.956
+                },
+                {
+                    "word": "\u548c",
+                    "start": 3.408,
+                    "end": 3.668,
+                    "score": 0.999
+                },
+                {
+                    "word": "\u5e78",
+                    "start": 3.668,
+                    "end": 3.929,
+                    "score": 0.999
+                },
+                {
+                    "word": "\u798f",
+                    "start": 3.929,
+                    "end": 4.089,
+                    "score": 0.997
+                },
+                {
+                    "word": "\u751f",
+                    "start": 4.089,
+                    "end": 4.31,
+                    "score": 1.0
+                },
+                {
+                    "word": "\u6d3b",
+                    "start": 4.31,
+                    "end": 4.43,
+                    "score": 1.0
+                },
+                {
+                    "word": "\u7684",
+                    "start": 4.43,
+                    "end": 4.611,
+                    "score": 0.999
+                },
+                {
+                    "word": "\u63ed",
+                    "start": 4.611,
+                    "end": 4.911,
+                    "score": 0.933
+                },
+                {
+                    "word": "\u793a",
+                    "start": 4.911,
+                    "end": 4.931,
+                    "score": 0.0
+                }
+            ]
+        }
+    ],
+    "word_segments": [
+        {
+            "word": "\u5065",
+            "start": 1.202,
+            "end": 1.403,
+            "score": 0.901
+        },
+        {
+            "word": "\u5eb7",
+            "start": 1.403,
+            "end": 1.623,
+            "score": 0.968
+        },
+        {
+            "word": "\u7684",
+            "start": 1.623,
+            "end": 1.744,
+            "score": 0.999
+        },
+        {
+            "word": "身",
+            "start": 1.744,
+            "end": 2.205,
+            "score": 0.954
+        },
+        {
+            "word": "体"
+        },
+        {
+            "word": "\u662f",
+            "start": 2.205,
+            "end": 3.127,
+            "score": 0.934
+        },
+        {
+            "word": "实"
+        },
+        {
+            "word": "现"
+        },
+        {
+            "word": "梦"
+        },
+        {
+            "word": "想",
+            "start": 3.127,
+            "end": 3.408,
+            "score": 0.956
+        },
+        {
+            "word": "\u548c",
+            "start": 3.408,
+            "end": 3.668,
+            "score": 0.999
+        },
+        {
+            "word": "\u5e78",
+            "start": 3.668,
+            "end": 3.929,
+            "score": 0.999
+        },
+        {
+            "word": "\u798f",
+            "start": 3.929,
+            "end": 4.089,
+            "score": 0.997
+        },
+        {
+            "word": "\u751f",
+            "start": 4.089,
+            "end": 4.31,
+            "score": 1.0
+        },
+        {
+            "word": "\u6d3b",
+            "start": 4.31,
+            "end": 4.43,
+            "score": 1.0
+        },
+        {
+            "word": "\u7684",
+            "start": 4.43,
+            "end": 4.611,
+            "score": 0.999
+        },
+        {
+            "word": "基",
+            "start": 4.611,
+            "end": 4.911,
+            "score": 0.933
+        },
+        {
+            "word": "石",
+            "start": 4.911,
+            "end": 4.931,
+            "score": 0.0
+        }
+    ]
+}
