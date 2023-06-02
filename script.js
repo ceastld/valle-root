@@ -1,4 +1,4 @@
-function add_tr(text) {
+function add_tr(text,id='aishell2') {
   // 给定的字符串，使用制表符分隔文本和音频路径
   // var text = "你会很高兴地知道我们立即给予了帮助\taudios/aishell2/IT0016W0138_prompt.wav\t健康的身体是实现梦想和幸福生活的基石\taudios/aishell2/IT0016W0138.wav";
 
@@ -22,13 +22,13 @@ function add_tr(text) {
   <td style="text-align: left; vertical-align: middle;">${audioText}</td>
   <td style="text-align: center;">
     <audio controls="controls" style="width: 140px;">
-      <source src="${audioPath}" autoplay/>Your browser does not support the audio element.
+      <source src="${audioPath}" autoplay/>生成失败
     </audio>
   </td>
 `;
 
   // 获取表格元素
-  var tbody = document.getElementById("aishell2"); // 替换为实际表格的 ID
+  var tbody = document.getElementById(id); // 替换为实际表格的 ID
 
   // 创建一个临时的 <tr> 元素
   var tr = document.createElement("tr");
@@ -50,7 +50,24 @@ window.onload = function () {
         .map(x => x.trim())
         .filter(x => x != '')
         .forEach(line => {
-          add_tr(line)
+          add_tr(line,'aishell2')
+        })
+      console.log(text);
+    })
+    .catch(error => {
+      console.error('发生错误:', error);
+    });
+
+  var linkElement = document.getElementById('test-file');
+
+  fetch(linkElement.href)
+    .then(response => response.text())
+    .then(data => {
+      data.split(/\r?\n/)
+        .map(x => x.trim())
+        .filter(x => x != '')
+        .forEach(line => {
+          add_tr(line,'others')
         })
       console.log(text);
     })
