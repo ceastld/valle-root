@@ -1,4 +1,4 @@
-function add_tr(text,id='aishell2') {
+function add_tr(text, id = 'aishell2') {
   // 给定的字符串，使用制表符分隔文本和音频路径
   // var text = "你会很高兴地知道我们立即给予了帮助\taudios/aishell2/IT0016W0138_prompt.wav\t健康的身体是实现梦想和幸福生活的基石\taudios/aishell2/IT0016W0138.wav";
 
@@ -40,38 +40,26 @@ function add_tr(text,id='aishell2') {
   tbody.appendChild(tr);
 }
 
+function add_tr_bylink(link_id, tr_id) {
+  var linkElement = document.getElementById(link_id);
+
+  fetch(linkElement.href)
+    .then(response => response.text())
+    .then(data => {
+      data.split(/\r?\n/)
+        .map(x => x.trim())
+        .filter(x => x != '')
+        .forEach(line => {
+          add_tr(line, tr_id)
+        })
+      console.log(text);
+    })
+    .catch(error => {
+      console.error('发生错误:', error);
+    });
+}
+
 window.onload = function () {
-  var linkElement = document.getElementById('text-file');
-
-  fetch(linkElement.href)
-    .then(response => response.text())
-    .then(data => {
-      data.split(/\r?\n/)
-        .map(x => x.trim())
-        .filter(x => x != '')
-        .forEach(line => {
-          add_tr(line,'aishell2')
-        })
-      console.log(text);
-    })
-    .catch(error => {
-      console.error('发生错误:', error);
-    });
-
-  var linkElement = document.getElementById('test-file');
-
-  fetch(linkElement.href)
-    .then(response => response.text())
-    .then(data => {
-      data.split(/\r?\n/)
-        .map(x => x.trim())
-        .filter(x => x != '')
-        .forEach(line => {
-          add_tr(line,'others')
-        })
-      console.log(text);
-    })
-    .catch(error => {
-      console.error('发生错误:', error);
-    });
+  add_tr_bylink('text-aishell2_nice', 'aishell2');
+  // add_tr_bylink('test-file', 'others');
 }
