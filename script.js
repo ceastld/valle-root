@@ -59,9 +59,13 @@ function add_tr_bylink(link_id, tr_id) {
     });
 }
 
+add_tr_bylink('text-genshin','genshin_train');
+
 add_tr_bylink('text-genshin_nice','genshin');
-add_tr_bylink('text-aishell2_nice', 'aishell2');
+
+// add_tr_bylink('text-aishell2_nice', 'aishell2');
 add_tr_bylink('text-test','genshen_others');
+
 // window.onload = function () {
 //   // add_tr_bylink('test-file', 'others');
 // }

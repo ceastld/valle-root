@@ -12,6 +12,7 @@
 	<link id="text-aishell2" rel="text" href="./aishell2.txt">
 	<link id="text-aishell2_nice" rel="text" href="./aishell2_nice.txt">
 	<link id="text-genshin_nice" rel="text" href="./genshin_nice.txt">
+	<link id="text-genshin" rel="text" href="./genshin.txt">
 	<link id="text-test" rel="text" href="./test1.txt">
 	<script src="./script.js"></script>
 	<title>VALL-E</title>
@@ -74,7 +75,6 @@
 				<tbody>
 				<tr><td style="text-align: center; width: 140px"><b>Transformer</b></td>
 				<td style="text-align: center; width: 140px"><b>Dim 1024 Heads 16 Layers 12</b></td>
-				<!-- <td style="text-align: center; width: 140px"><b>Dim 256 Heads 8 Layers 6</b></td> -->
 				<td style="text-align: center; width: 140px"><b>Dim 1024 Heads 16 Layers 12</b></td>
 				<td style="text-align: center; width: 140px"><b>Dim 1024 Heads 16 Layers 12</b></td>
 				<td style="text-align: center; width: 140px"><b>Dim 1024 Heads 16 Layers 12</b></td>
@@ -113,7 +113,7 @@
 		VALL-E directly enables various speech synthesis applications, such as zero-shot TTS, speech editing, and content creation combined with other generative AI models like GPT-3.
 		</p>
 </div>
-
+<!-- 
 <div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
 	<h2 id="ljspeech-samples" style="text-align: center;">LJSpeech Samples</h2>
 		<div class="table-responsive pt-3">
@@ -133,7 +133,6 @@
 			<td style="text-align: center"><audio controls preload="none" style="width: 140px;"><source src="audios/ljspeech/LJ049-0124_24K.wav" autoplay/>Your browser does not support the audio element.</audio></td>
 			<td style="text-align: center"><audio controls preload="none" style="width: 140px;"><source src="audios/ljspeech/LJ049-0185_24K_prompted_libritts.wav" autoplay/>Your browser does not support the audio element.</audio></td>
 			<td style="text-align: center"><audio controls preload="none" style="width: 140px;"><source src="audios/ljspeech/LJ049-0185_24K_ljspeech_me.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-			<!-- <td style="text-align: center"><audio controls preload="none" style="width: 140px;"><source src="audios/ljspeech/LJ049-0185_24K_prompted_libritts1.wav" autoplay/>Your browser does not support the audio element.</audio></td> -->
 			</tr>
 			<tr>
 			<td style="text-align: left;vertical-align:middle;width: 500px">During the period the Commission was giving thought to this situation,</td>
@@ -141,14 +140,13 @@
 			<td style="text-align: center"><audio controls preload="none" style="width: 140px;"><source src="audios/ljspeech/LJ049-0185_24K.wav" autoplay/>Your browser does not support the audio element.</audio></td>
 			<td style="text-align: center"><audio controls preload="none" style="width: 140px;"><source src="audios/ljspeech/LJ049-0124_24K_prompted_libritts.wav" autoplay/>Your browser does not support the audio element.</audio></td>
 			<td style="text-align: center"><audio controls preload="none" style="width: 140px;"><source src="audios/ljspeech/LJ049-0124_24K_ljspeech_me.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-			<!-- <td style="text-align: center"><audio controls preload="none" style="width: 140px;"><source src="audios/ljspeech/LJ049-0124_24K_prompted_libritts1.wav" autoplay/>Your browser does not support the audio element.</audio></td> -->
 			</tr>
 			</tbody>
 			</table>
 		</div>
-</div>
+</div> -->
 
-
+<!-- 
 <div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
 	<h2 id="librispeech-samples" style="text-align: center;">LibriSpeech Samples</h2>
 		<div class="table-responsive pt-3">
@@ -198,9 +196,9 @@
 			</tbody>
 			</table>
 		</div>
-</div>
+</div> -->
 
-
+<!-- 
 <div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">	
 		<h2 id="Acoustic-Environment-Maintenance" style="text-align: center;">Acoustic Environment Maintenance</h2>
 		
@@ -256,8 +254,8 @@
 			</tbody>
 			</table>
 		</div>
-</div>
-
+</div> -->
+<!-- 
 <div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">		
 		<h2 id="Speaker-Emotion-Maintenance" style="text-align: center;">Speaker’s Emotion Maintenance</h2>
 			<p> 
@@ -315,11 +313,28 @@
 			</tbody>
 			</table>	
 		</div>
-</div>
-
+</div> -->
 
 <div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
-	<h2 id="Speaker-Emotion-Maintenance" style="text-align: center;">Genshin Samples</h2>
+	<h2 id="Speaker-Emotion-Maintenance" style="text-align: center;">Genshin Samples on Train set</h2>
+	<div class="table-responsive pt-3">
+		<table class="table table-hover pt-2">
+		<thead>
+		<tr>
+		<th style="text-align: center">Text Prompt</th>
+		<th style="text-align: center">Speaker Prompt</th>
+		<th style="text-align: center">Text</th>
+		<th style="text-align: center">Ours Genshin Model</th>
+		</tr>
+		</thead>
+		<tbody id="genshin_train">
+		</tbody>
+		</table>	
+	</div>
+</div>
+
+<div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
+	<h2 id="Speaker-Emotion-Maintenance" style="text-align: center;">Genshin Samples on Test set</h2>
 	<p>
 		用原神数据训练的模型在测试上的效果
 	</p>
