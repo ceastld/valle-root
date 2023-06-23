@@ -13,7 +13,7 @@ function add_tr(text, id = 'aishell2') {
 
   // 创建要添加的 HTML 字符串
   var html = `
-  <td style="text-align: left; vertical-align: middle; width: 500px;">${promptText}</td>
+  <td style="text-align: left; vertical-align: middle; width: 300px;">${promptText}</td>
   <td style="text-align: center;">
     <audio controls="controls" style="width: 140px;">
       <source src="${promptAudioPath}" autoplay/>Your browser does not support the audio element.
@@ -59,7 +59,9 @@ function add_tr_bylink(link_id, tr_id) {
     });
 }
 
-window.onload = function () {
-  add_tr_bylink('text-aishell2_nice', 'aishell2');
-  // add_tr_bylink('test-file', 'others');
-}
+add_tr_bylink('text-genshin_nice','genshin');
+add_tr_bylink('text-aishell2_nice', 'aishell2');
+add_tr_bylink('text-test','genshen_others');
+// window.onload = function () {
+//   // add_tr_bylink('test-file', 'others');
+// }
